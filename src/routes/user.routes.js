@@ -55,6 +55,7 @@ userRouter.post("/register", async (req, res) => {
                 msg: "Login Successfull",
                 token: token,
                 user: existingUser,
+                isOK: true
               });
           } else {
             res
